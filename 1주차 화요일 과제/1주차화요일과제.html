@@ -1,0 +1,108 @@
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			.background {
+                margin:0;
+				width: 900px;
+                height:900px;
+				background-position: left;
+			}
+			.leftword {
+                
+                font-size:20px;
+                font-weight: bold;
+				text-align: left;
+                position: absolute;
+                top: 50%;
+                left: 25%;
+                transform: translate( -50%, -50% );
+			}
+            .right{
+                float:right;
+                position:absolute;
+                top:50%;
+                left:75%;
+                transform: translate( -50%, -50% );
+            }
+            form{
+                float:right;
+                position:relative;
+                top:30px;
+                right:100px;
+
+            }
+            .rightworld{
+                font-size:30px;
+                font-weight:bold;
+                
+            }
+            .rightjoin{
+                font-size:22px;
+            }
+            .logo{
+                width:50px;
+                height:50px;
+            }
+            .bottomlogin{
+                width:100px;
+                font-size:20px;
+                margin:10px;
+                padding:5px;
+                border-radius:5px;
+                position:relative;
+                left:70px;
+                
+            }
+            .join{
+                background-color:skyblue;
+                color:white;
+            }
+            
+            .login{
+                margin:5px;
+
+            }
+            footer{
+               margin:10px;
+               text-align: center;
+               font-size:15px;
+               color:gray;
+            }
+
+		</style>
+	</head>
+	<body>
+        <span class="left">
+            <img class="background" src="background.bmp">
+			<span class="leftword">
+				관심사를 팔로우하세요.<br><br>
+                사람들이 무엇에 대해 무엇에 대해 이야기하고 있는<br>지 알아보세요.<br><br>
+                대화에 참여하세요.
+            </span>
+        </span>
+
+         <form action="#" method="post">
+             <input type="text"name="uname"/>
+             <input type="text"name="password"/>
+             <input id="login" type="button" value="로그인">
+            </form>
+        <div class="right">
+         <img class="logo" src="logo.bmp">
+         <div class="rightworld">
+            지금 전 세계에서 무슨일<br>
+            이 일어나고 있는지 확인하세<br>요<br><br>
+            <div class="rightjoin">
+            지금 트위터에 가입하세요.
+         </div>
+         </div>
+         <div class="bottomlogin">
+          <input class="join" type="button" value="가입하기"><br>
+          <input class="login" type="button" value="로그인">
+          </div>
+        </div>
+        <footer>
+           <div> 회사소개   고객센터   블로그   시스템 현황   인재채용   이용약관   개인정보 처리방침   쿠키   광고정보   브랜드   애플리케이션   광고   마케팅   비즈니스   개발자   디렉토리   설정   ⓒ 2020 Twitter</div>
+        </footer>
+	</body>
+</html>
